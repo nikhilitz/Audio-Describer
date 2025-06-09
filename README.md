@@ -65,27 +65,26 @@ Audio-Describer/
 ├── requirements.txt
 ├── .gitignore
 │
-├── data/ # Audio files (optional/test)
+├── data/                      # Audio files (optional/test)
 │
 ├── src/
-│ ├── init.py
-│ ├── main.py # Entry point (CLI/script)
-│ ├── audio_analysis.py # Feature extraction and classification
-│ ├── description_gen.py # Natural language generation
-│ ├── output_formats.py # Description formatting
-│ └── utils.py # Common helpers
+│   ├── __init__.py
+│   ├── main.py               # Entry point (CLI/script)
+│   ├── audio_analysis.py     # Feature extraction and classification
+│   ├── description_gen.py    # Natural language generation
+│   ├── output_formats.py     # Description formatting
+│   └── utils.py              # Common helpers
 │
 ├── tests/
-│ ├── test_audio_analysis.py
-│ ├── test_description_gen.py
-│ └── test_output_formats.py
+│   ├── test_audio_analysis.py
+│   ├── test_description_gen.py
+│   └── test_output_formats.py
 │
-├── docs/ # Documentation and architecture diagrams
-└── examples/ # Output samples
-├── youtube_descriptions/
-├── podcast_notes/
-└── social_media_posts/
-
+├── docs/                     # Documentation and architecture diagrams
+└── examples/                 # Output samples
+    ├── youtube_descriptions/
+    ├── podcast_notes/
+    └── social_media_posts/
 
 
 ---
